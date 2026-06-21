@@ -1,0 +1,14 @@
+# 가상화 활성 명령어
+.\venv\Scripts\Activate
+
+# 패키지 재설치 (NumPy 제거, Flask 추가)
+pip install -r requirements.txt
+ 
+# 창 1: Telegram 봇 실행
+python main.py --bot
+ 
+# 창 2: 시그널 파이프라인 실행
+python main.py
+ 
+# 창 3: 웹 서버 실행 (새로 추가)
+python web/app.py

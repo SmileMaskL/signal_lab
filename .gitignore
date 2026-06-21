@@ -1,0 +1,25 @@
+# Environment
+.env
+.env.local
+
+# Python
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Runtime data
+signal.db
+logs/
+*.log
+
+# IDE
+.idea/
+.vscode/
+.continue/
+
+# OS
+Thumbs.db
+.DS_Store
